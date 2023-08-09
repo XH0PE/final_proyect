@@ -1,0 +1,12 @@
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+section{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
