@@ -1,12 +1,36 @@
 body{
     overflow-x: hidden;
     overflow-y: scroll;
+    background-color: #1B2838;
 }
 section{
     height: 100%;
     width: 100vw;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     padding: 2rem;
+    color: aliceblue;
+}
+
+/* img{
+    display: flex;
+    justify-content: center;
+} */
+
+a{
+    
+    margin-left: 15px;
+}
+
+h3, h2{
+    color: aliceblue;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 50px;
 }
