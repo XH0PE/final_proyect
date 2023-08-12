@@ -6,7 +6,7 @@
     <%- include('partials/head.ejs')%>
     <title><%- title%></title>
 </head>
-<body>
+<body style="overflow-y: hidden;">
     
     <main>
         <%- include('partials/navbar.ejs')%>
@@ -14,15 +14,15 @@
 
     <section style="display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 30px 0 10px 0;" class="img-fluid">
         <h1>Requisitos del Sistema</h1>
-        <div class="container overflow-hidden text-center">
+        <div style="margin-top: 2px;" class="container overflow-hidden text-center">
             <div class="row gy-5">
-              <div class="col-6" style="padding: 30px 0 10px 0;">
+              <div class="col-6" style="padding: 10px 0 10px 0;">
                 <div class="p-3 h2">MINIMO:</div>
               </div>
-              <div class="col-6 " style="padding: 30px 0 10px 0;">
+              <div class="col-6 " style="padding: 10px 0 10px 0;">
                 <div class="p-3 h2">RECOMENDADO:</div>
               </div>
-              <div class="col-6" >
+              <div class="col-6" style="margin-top: 0;">
                 <div class="p-3 h3">SO: Windows 7 SP1<hr>
                     Procesador: 32-bit, 2 GHz or Faster<hr>
                     Memoria: 4 GB de RAM<hr>
@@ -30,7 +30,7 @@
                     DirectX: Versión 10<hr>
                     Almacenamiento: 1 GB de espacio disponible</div>
               </div>
-              <div class="col-6 h3">
+              <div class="col-6 h3" style="margin-top: 0;">
                 <div class="p-3">SO: Windows 10 or Newer<hr>
                     Procesador: 64-bit, 3 GHz or Faster<hr>
                     Memoria: 8 GB de RAM<hr>

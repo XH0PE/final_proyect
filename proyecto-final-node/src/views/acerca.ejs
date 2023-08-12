@@ -6,29 +6,48 @@
     <%- include('partials/head.ejs')%>
     <title><%- title%></title>
 </head>
-<body>
+<body style="overflow-y: hidden;">
 
     <main>
         <%- include('partials/navbar.ejs')%>
     </main>
 
     <section>
-        <div class="container overflow-hidden text-center">
-            <div class="row gy-5">
-              <div class="col-6" style="padding: 30px 0 10px 0;">
-                <div class="p-3 h2">TÍTULO: Ravenfield<hr>
-                    GÉNERO: Acción, Indie, Acceso anticipado<hr>
-                    DESARROLLADOR: SteelRaven7<hr>
-                    EDITOR: SteelRaven7<hr>
-                    FECHA DE LANZAMIENTO: 18 MAY 2017</div>
-              </div>
-              <div class="col-6 " style="padding: 30px 0 10px 0;">
-                <div class="p-3 h2">RECOMENDADO:</div>
-              </div>
-              
-              
-            </div>
+      <h1>Informacion adicional</h1>
+      <div id='colu' style="margin-top: 2px;" class="container overflow-hidden text-center">
+        <div class="row gy-5">
+          <div class="col-6" style="margin-top: 10;">
+            <div class="p-3 h3">TÍTULO: Ravenfield<hr>
+              GÉNERO: Acción, Indie, Acceso anticipado<hr>
+              DESARROLLADOR: SteelRaven7<hr>
+              EDITOR: SteelRaven7<hr>
+              FECHA DE LANZAMIENTO: 18 MAY 2017</div>
           </div>
+          <div class="col-6 h3" style="margin-top: 10;">
+            <div class="p-3">Visita tambien: <hr>
+              <a href="https://steelraven7.com" target="_blank">Steelraven7.com</a><hr>
+              <a href="https://twitter.com/SteelRaven7?s=20" target="_blank">Twitter</a><hr>
+              <a href="https://www.youtube.com/c/SteelRaven7" target="_blank">Youtube</a><hr>
+              <a href="https://store.steampowered.com/app/636480/Ravenfield/" target="_blank">Steam</a></div>
+          </div>
+        </div>
+      </div>
+      <!-- <div style="margin-top: 2px; display: block; align-items: baseline; " class="container overflow-hidden text-center">
+        <div class="row gy-5">
+          <div class="col-6" style=" margin: 3rem 2px 0 0;">
+            <div class="p-3 h2">TÍTULO: Ravenfield<hr>
+                GÉNERO: Acción, Indie, Acceso anticipado<hr>
+                DESARROLLADOR: SteelRaven7<hr>
+                EDITOR: SteelRaven7<hr>
+                FECHA DE LANZAMIENTO: 18 MAY 2017</div>
+          </div>
+          <div class="col-6 " style="margin: 3rem 2px 0 5px;">
+            <div class="p-3 h2">REDES SOCIALES: <hr>
+              <a href="https://steelraven7.com" target="_blank">Steelraven7.com</a><hr>
+              <a href="https://twitter.com/SteelRaven7?s=20" target="_blank">Twitter</a><hr>
+              <a href="https://www.youtube.com/c/SteelRaven7" target="_blank">Youtube</a><hr>
+              <a href="https://store.steampowered.com/app/636480/Ravenfield/" target="_blank">Steam</a>
+            </div> -->
     </section>
 
 </body>
